@@ -1,0 +1,13 @@
+.main-product-detail
+{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    min-width: 900px;
+    justify-content: center;
+}
+
+.plans-container--slider
+{
+    justify-content: center;
+}
