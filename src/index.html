@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="CSS/tablet.css" media="(min-width: 900px)">
     <title>Batabit</title>
 </head>
 <body>
@@ -64,10 +65,9 @@
                                 <td class="table__bottom-right table__right">$ 4.96 <span class="down"></span></td>
                             </tr>
                         </table>
-                    </div>
-
                     <div class="currency-table-date">
                         <p><b>Actualizado: </b> 19 de Julio 23:45 </p>
+                    </div>
                     </div>
                 </div>
 
@@ -92,6 +92,9 @@
                                 <td class="table__bottom-right table__right">$ 14.96 <span class="down"></span></td>
                             </tr>
                         </table>
+                    </div>
+                    <div class="currency-table-date">
+                        <p><b>Actualizado: </b> 19 de Julio 23:45 </p>
                     </div>
                 </div>
             </section>
@@ -167,12 +170,32 @@
 
             <section class="plans-container--slider">
                 <article class="plans-container--card">
-                    <p class="recomendado">Recomendado</p>
+                    <p class="p-one recomendado">Recomendado</p>
                     <div class="plans-info-container">
                         <h3 class="plans-card--title">Pago Anual</h3>
                         <p class="plans-card--price"><span>$</span> 99</p>
                         <p class="plans-card--saving">*Ahorras $129 comparado al plan mensual.</p>
-                        <button class="plans-card--ca">Escoger este <span></span></button>
+                        <button class="button-one plans-card--ca">Escoger este <span></span></button>
+                    </div>
+                </article>
+
+                <article class="plans-container--card">
+                    <p class="p-two recomendado">Clasica</p>
+                    <div class="plans-info-container">
+                        <h3 class="plans-card--title">Pago Mensual</h3>
+                        <p class="plans-card--price"><span>$</span> 12</p>
+                        <p class="plans-card--saving">*Disfruta nuestro plan mensual.</p>
+                        <button class="button-two plans-card--ca">Escoger este <span></span></button>
+                    </div>
+                </article>
+
+                <article class="plans-container--card">
+                    <p class="p-three recomendado">Expert</p>
+                    <div class="plans-info-container">
+                        <h3 class="plans-card--title">Pago Unico</h3>
+                        <p class="plans-card--price"><span>$</span> 850</p>
+                        <p class="plans-card--saving">*Disfruta nuestro plan de por vida.</p>
+                        <button class="button-three plans-card--ca">Escoger este <span></span></button>
                     </div>
                 </article>
             </section>
@@ -180,7 +203,17 @@
     </main>
 
     <footer>
-
+        <div class="footer-container">
+            <ul>
+                <li><a href="">Linkedin</a></li>
+                <li><a href="">Crunchbase</a></li>
+                <li><a href="">Hackernews</a></li>
+            </ul>
+    
+            <div class="image-footer">
+                <img src="./assets/logos/Lofofooter.png" alt="logo-footer">
+            </div>
+        </div>
     </footer>
 </body>
 </html>
